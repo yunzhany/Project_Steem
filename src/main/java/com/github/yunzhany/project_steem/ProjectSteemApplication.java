@@ -10,5 +10,4 @@ public class ProjectSteemApplication {
         SpringApplication.run(ProjectSteemApplication.class, args);
     }
 
-
 }
