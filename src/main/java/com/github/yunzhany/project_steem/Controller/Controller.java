@@ -13,8 +13,9 @@ public class Controller {
     }
 
     @RequestMapping("simpleparam")
-    public void simpleparam (@RequestParam String name, int age){
-        System.out.println("Hello World");
+    public String simpleparam (String name, int age){
+        System.out.println("Name: " + name + ", Age: " + age);
+        return "OK";
     }
 
 }
