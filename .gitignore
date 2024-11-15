@@ -1,6 +1,6 @@
 HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
+project_steem_backend/target/
+!project_steem_backend/.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -14,7 +14,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+project_steem_backend/.idea
 *.iws
 *.iml
 *.ipr
