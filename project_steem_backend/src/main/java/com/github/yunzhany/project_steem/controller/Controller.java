@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Controller {
-    @RequestMapping("hello")
+    @RequestMapping("man")
     public String hello(){
-        System.out.println("Hello World");
-        return "hello";
+        System.out.println("OK");
+        return "what can I say";
     }
 
     @RequestMapping("simpleparam")
