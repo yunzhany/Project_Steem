@@ -4,26 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5064141b-1e00-4bdb-9719-00ed4b37c37e" name="Changes" comment="Let's see if front end is now up...">
-      <change afterPath="$PROJECT_DIR$/project_steam_frontend/src/components/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_steem_backend/src/main/java/com/github/yunzhany/project_steem/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_steem_backend/src/main/java/com/github/yunzhany/project_steem/model/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_steem_backend/src/main/java/com/github/yunzhany/project_steem/model/Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_steem_backend/src/main/java/com/github/yunzhany/project_steem/model/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_steem_backend/src/main/java/com/github/yunzhany/project_steem/model/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_steem_backend/src/main/java/com/github/yunzhany/project_steem/model/User.java" afterDir="false" />
+    <list default="true" id="5064141b-1e00-4bdb-9719-00ed4b37c37e" name="Changes" comment="Frontend initial clean-up">
+      <change afterPath="$PROJECT_DIR$/project_steam_frontend/src/assets/styles/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_steam_frontend/src/components/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_steam_frontend/src/components/Gamecard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_steam_frontend/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_steam_frontend/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_steam_frontend/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_steam_frontend/src/views/GameDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_steam_frontend/src/views/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_steam_frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_steam_frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_steam_frontend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project_steam_frontend/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_steam_frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project_steam_frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_steam_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project_steam_frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project_steam_frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/components/TheWelcome.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/components/WelcomeItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/components/icons/IconCommunity.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/components/icons/IconDocumentation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/components/icons/IconEcosystem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/components/icons/IconSupport.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/components/icons/IconTooling.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_steem_backend/src/main/java/com/github/yunzhany/project_steem/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_steem_backend/src/main/java/com/github/yunzhany/project_steem/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_steem_backend/target/classes/com/github/yunzhany/project_steem/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/project_steem_backend/target/classes/com/github/yunzhany/project_steem/Controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/assets/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_steam_frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project_steam_frontend/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="Vue Composition API Component" />
       </list>
     </option>
@@ -82,6 +83,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "18",
     "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -168,7 +170,8 @@
       <workItem from="1731449426291" duration="5670000" />
       <workItem from="1731524223471" duration="10001000" />
       <workItem from="1731639768971" duration="5105000" />
-      <workItem from="1731648548738" duration="3460000" />
+      <workItem from="1731648548738" duration="3557000" />
+      <workItem from="1731684537290" duration="1829000" />
     </task>
     <task id="LOCAL-00001" summary="Transferring the project to Github starting today...">
       <option name="closed" value="true" />
@@ -266,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731648949710</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Frontend initial clean-up">
+      <option name="closed" value="true" />
+      <created>1731652108891</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731652108891</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +314,8 @@
     <MESSAGE value="Frontend-backend separation" />
     <MESSAGE value="Frontend-backend now both up" />
     <MESSAGE value="Let's see if front end is now up..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Let's see if front end is now up..." />
+    <MESSAGE value="Frontend initial clean-up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend initial clean-up" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
