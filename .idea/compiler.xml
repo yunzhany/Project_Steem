@@ -6,6 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for Project_Steem" enabled="true">
+        <sourceOutputDir name="../project_steem_backend_1/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../project_steem_backend_1/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="project_steem_backend" />
       </profile>
     </annotationProcessing>
